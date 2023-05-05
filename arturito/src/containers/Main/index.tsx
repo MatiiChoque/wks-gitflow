@@ -4,6 +4,7 @@ import { paths } from '../paths';
 import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
+import StarShips from '../../components/StarShips';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -36,12 +37,8 @@ const MainContainer = () => {
               cada starship: name, model, manufacturer, passengers, cantidad de
               films. Codear en un componente aparte tal como {'<Planets>'}.
             </p>
-            <p>
-              <a href="https://swapi.it/documentation#starships">
-                https://swapi.it/documentation#starships
-              </a>
-            </p>
           </div>
+          <StarShips />
         </Route>
 
         <Route path={paths.people.href}>
