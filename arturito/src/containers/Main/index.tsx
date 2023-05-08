@@ -32,11 +32,7 @@ const MainContainer = () => {
         <Route path={paths.starships.href}>
           <div className="p-3">
             <p className="font-bold text-xl"># TODO</p>
-            <p>
-              Agregar tabla con las starships sacadas de la API. Mostrar para
-              cada starship: name, model, manufacturer, passengers, cantidad de
-              films. Codear en un componente {'<Planets>'}.
-            </p>
+            <p></p>
           </div>
           <StarShips />
         </Route>
